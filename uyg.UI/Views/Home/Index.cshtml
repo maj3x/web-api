@@ -1,0 +1,45 @@
+﻿@model IEnumerable<uyg.UI.Models.NewsDto>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Latest News</h2>
+            <div class="row">
+                @foreach (var news in Model)
+                {
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            @if (!string.IsNullOrEmpty(news.ImageUrl))
+                            {
+                                <img src="@news.ImageUrl" class="card-img-top" alt="@news.Title">
+                            }
+                            <div class="card-body">
+                                <h5 class="card-title">@news.Title</h5>
+                                <p class="card-text">@(news.Content?.Length > 100 ? news.Content.Substring(0, 100) + "..." : news.Content)</p>
+                                <a asp-controller="News" asp-action="Details" asp-route-id="@news.Id" class="btn btn-primary">Read More</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                <small>Posted on @(news.PublishedAt?.ToString("MMM dd, yyyy") ?? "Not published yet")</small>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3>Categories</h3>
+            <div class="list-group">
+                @foreach (var category in ViewBag.Categories)
+                {
+                    <a asp-controller="News" asp-action="Category" asp-route-id="@category.Id" class="list-group-item list-group-item-action">
+                        @category.Name
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+</div>

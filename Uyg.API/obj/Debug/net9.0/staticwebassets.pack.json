@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\m4j\\Desktop\\webapi\\Uyg.API\\wwwroot\\Files\\ProductPhotos\\296cb44e-3f34-456c-839d-0b8d00a05c09.jpg",
+      "PackagePath": "staticwebassets\\Files\\ProductPhotos\\296cb44e-3f34-456c-839d-0b8d00a05c09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\m4j\\Desktop\\webapi\\Uyg.API\\wwwroot\\Files\\ProductPhotos\\5d896743-73a8-4564-88d8-81348e2493cb.jpg",
+      "PackagePath": "staticwebassets\\Files\\ProductPhotos\\5d896743-73a8-4564-88d8-81348e2493cb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\m4j\\Desktop\\webapi\\Uyg.API\\wwwroot\\Files\\ProductPhotos\\9f648ed2-dd28-4a20-8eed-32eeef2aad26.jpg",
+      "PackagePath": "staticwebassets\\Files\\ProductPhotos\\9f648ed2-dd28-4a20-8eed-32eeef2aad26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\m4j\\Desktop\\webapi\\Uyg.API\\wwwroot\\Files\\ProductPhotos\\product.jpg",
+      "PackagePath": "staticwebassets\\Files\\ProductPhotos\\product.jpg"
+    },
+    {
+      "Id": "C:\\Users\\m4j\\Desktop\\webapi\\Uyg.API\\wwwroot\\Files\\UserPhotos\\7e50f550-d8f0-4892-9d39-b9f09ded4536.jpg",
+      "PackagePath": "staticwebassets\\Files\\UserPhotos\\7e50f550-d8f0-4892-9d39-b9f09ded4536.jpg"
+    },
+    {
+      "Id": "C:\\Users\\m4j\\Desktop\\webapi\\Uyg.API\\wwwroot\\Files\\UserPhotos\\cac49a4d-ad4f-4851-941d-c1131d68e835.jpg",
+      "PackagePath": "staticwebassets\\Files\\UserPhotos\\cac49a4d-ad4f-4851-941d-c1131d68e835.jpg"
+    },
+    {
+      "Id": "C:\\Users\\m4j\\Desktop\\webapi\\Uyg.API\\wwwroot\\Files\\UserPhotos\\de08104f-3295-4e11-a342-87b23bdd7a51.jpg",
+      "PackagePath": "staticwebassets\\Files\\UserPhotos\\de08104f-3295-4e11-a342-87b23bdd7a51.jpg"
+    },
+    {
+      "Id": "C:\\Users\\m4j\\Desktop\\webapi\\Uyg.API\\wwwroot\\Files\\UserPhotos\\profil.jpg",
+      "PackagePath": "staticwebassets\\Files\\UserPhotos\\profil.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Uyg.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Uyg.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Uyg.API.props",
+      "PackagePath": "build\\Uyg.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Uyg.API.props",
+      "PackagePath": "buildMultiTargeting\\Uyg.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Uyg.API.props",
+      "PackagePath": "buildTransitive\\Uyg.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
